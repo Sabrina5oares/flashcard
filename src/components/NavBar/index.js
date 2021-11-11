@@ -1,0 +1,22 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+
+import "./index.css";
+
+export default function NavBar() {
+  return (
+    <nav>
+      <ul>
+        <NavLink to="/" className="li">
+          Home
+        </NavLink>
+        <NavLink to="/courses" className="li">
+          Cursos
+        </NavLink>
+        <NavLink to="/register" className="li">
+          Registro
+        </NavLink>
+      </ul>
+    </nav>
+  );
+}
