@@ -16,6 +16,9 @@ export default function NavBar() {
         <NavLink to="/register" className="li">
           Registro
         </NavLink>
+        <NavLink to="/edit" className="li">
+          Edit
+        </NavLink>
       </ul>
     </nav>
   );
